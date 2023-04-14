@@ -8,6 +8,10 @@
     color: black;
 }
 
+li {
+    list-style-type: none;
+}
+
 
 /* regole HEADER */
 .row.header {
@@ -17,6 +21,25 @@
 .leftside-header,
 .rightside-header {
     padding: 20px 0;
+}
+
+.header.tablet-desktop {
+    display: none;
+}
+
+.rightside-header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:768px) {
+    .header.tablet-desktop {
+        display: block;
+    }
+
+    .header.mobile {
+        display: none;
+    }
 }
 
 
