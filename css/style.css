@@ -1,7 +1,13 @@
 /* reogle COMUNI */
 .container.header,
-.container.jumbotron {
+.container.jumbotron,
+.container.about {
     color: white;
+}
+
+.row.jumbotron,
+.row.about {
+    background-color: #1abc9c;   
 }
 
 .container.photo-portfolio {
@@ -43,16 +49,11 @@ li {
 }
 
 
-/* regole JUMBOTRON */
-.row.jumbotron {
-    background-color: #1abc9c;   
-}
-
-
 /* regole PORTFOLIO */
 .photo-portfolio {
     border-radius: 20px;
 }
+
 
 /* regole DEBUG */
 /* [class*="col"] {
