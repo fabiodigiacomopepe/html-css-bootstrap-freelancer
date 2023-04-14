@@ -1,0 +1,37 @@
+/* reogle COMUNI */
+.container.header,
+.container.jumbotron {
+    color: white;
+}
+
+.container.photo-portfolio {
+    color: black;
+}
+
+
+/* regole HEADER */
+.row.header {
+    background-color: #2c3e50;
+}
+
+.leftside-header,
+.rightside-header {
+    padding: 20px 0;
+}
+
+
+/* regole JUMBOTRON */
+.row.jumbotron {
+    background-color: #1abc9c;   
+}
+
+
+/* regole PORTFOLIO */
+.photo-portfolio {
+    border-radius: 20px;
+}
+
+/* regole DEBUG */
+/* [class*="col"] {
+    background-color: brown;
+} */
