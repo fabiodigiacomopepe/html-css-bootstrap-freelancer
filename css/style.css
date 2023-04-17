@@ -18,12 +18,37 @@ body {
     background-color: #2c3e50;
 }
 
+.title-portfolio,
+.title-about {
+    font-size: 25px;
+    font-weight: bold;
+}
+
 li {
     list-style-type: none;
 }
 
 
 /* regole HEADER */
+.navbar.navbar-expand-md { 
+    background-color: #2c3e50;
+    font-weight: bold;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-toggler {
+    border: 2px solid grey;
+}
+
+header {
+    font-weight: bold;
+}
+
 .leftside-header,
 .rightside-header {
     padding: 20px 0;
@@ -31,11 +56,6 @@ li {
 
 .header.tablet-desktop {
     display: none;
-}
-
-.rightside-header-nav {
-    display: flex;
-    justify-content: space-between;
 }
 
 @media screen and (min-width:768px) {
@@ -49,11 +69,73 @@ li {
 }
 
 
-/* regole PORTFOLIO */
-.photo-portfolio {
-    border-radius: 20px;
+/* regole JUMBOTRON */
+.title-jumbotron {
+    font-size: 30px;
+    font-weight: bold;
 }
 
+.space-jumbotron {
+    font-size: 25px;
+}
+
+.info-jumbotron {
+    font-size: 14px;
+    padding: 15px 0 20px;
+}
+
+
+/* regole PORTFOLIO */
+section.portfolio {
+    padding: 30px 0;
+}
+
+.space-portfolio {
+    padding: 15px 0;
+}
+
+.photo-portfolio img {
+    max-width: 100%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+
+/* regole ABOUT */
+section.about {
+    padding: 0 100px;
+}
+
+.title-about {
+    padding: 20px 0 15px;
+}
+
+.space-about {
+    margin-bottom: 20px;
+}
+
+.paragraph-about {
+    margin-bottom: 20px;
+}
+
+.button-download input {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 3px 15px 3px 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.row.about .fa-solid.fa-download {
+    position: relative;
+    left: 30px;
+}
+
+@media screen and (min-width:992px) {
+    section.about {
+        padding: 0 200px;
+    }
+}
 
 /* regole CONTACT ME */
 .message {
