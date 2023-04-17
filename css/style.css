@@ -29,6 +29,21 @@ li {
     list-style-type: none;
 }
 
+hr {
+    border: 2px solid #2c3e50;
+    width: 60px;
+    opacity: 1;
+}
+
+hr.white {
+    border: 2px solid white;
+}
+
+.fa-solid.fa-star {
+    font-size: 30px;
+    margin: 0 10px;
+}
+
 
 /* regole HEADER */
 .navbar.navbar-expand-md { 
@@ -74,10 +89,6 @@ header {
 .title-jumbotron {
     font-size: 30px;
     font-weight: bold;
-}
-
-.space-jumbotron {
-    font-size: 25px;
 }
 
 .info-jumbotron {
@@ -204,6 +215,7 @@ section.about {
 .footer-info-down {
     margin: 25px;
     font-weight: bold;
+    font-size: 12px;
 }
 
 
